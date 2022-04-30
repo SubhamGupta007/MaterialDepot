@@ -1,38 +1,116 @@
-.App {
+body {
+  overflow: scroll;
+}
+.test {
+  width: 30px;
+  height: 30px;
+}
+.special{
+  background-color: #F1D8D8;
+  border-left:5px solid #FE0D0D;
+}
+.nav-link{
+  color: black;
+}
+
+img{
+  height: 30px;
+  width: 30px;
+}
+.btn{
+  width:150px;
+}
+td{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+th{
+  margin-left: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* toogle switch */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #27AE60;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #27AE60;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+/* checkboxes color */
+
+
+
+input[type=checkbox]:checked{
+  background-color: red;
+  border-color: red;
+  color: #fff;
+}
+
+input[type=checkbox]:disabled {
+  transform: scale(1);
+  border-color: #aaa;
+}
+
+input[type=radio]:checked{
+  background-color: red;
+  border-color: red;
+  color: #fff;
+}
+
+input[type=radio]:disabled {
+  transform: scale(1);
+  border-color: #aaa;
 }
