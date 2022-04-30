@@ -41,30 +41,12 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Screenshot (46)](https://user-images.githubusercontent.com/56687896/166089250-d77c8771-ea69-481a-bc6d-4826df091712.png)
 
-### Code Splitting
+![Screenshot (47)](https://user-images.githubusercontent.com/56687896/166089249-5a8ff592-b4ca-4089-93bf-7949ec49f065.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Screenshot (48)](https://user-images.githubusercontent.com/56687896/166089245-e0637c74-c1f4-4d20-b15b-2b01542cf755.png)
 
-### Analyzing the Bundle Size
+![Screenshot (49)](https://user-images.githubusercontent.com/56687896/166089224-ba653f2f-ded0-4ae2-8819-ce7b8b36c0d3.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
